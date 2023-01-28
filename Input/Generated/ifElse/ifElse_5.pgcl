@@ -1,0 +1,33 @@
+pre: <= 50, post: x, init: x [0..100] -> 0,
+x:=6;
+if (x > 50) {x:=39;
+if (x > 50) {x:=19;
+if (x > 50) {x:=59;
+if (x > 50) {x:=57;
+if (x > 50) {x:=64} else {x:=25}} else {x:=100;
+if (x > 50) {x:=39} else {x:=95}}} else {x:=6;
+if (x > 50) {x:=83;
+if (x > 50) {x:=6} else {x:=45}} else {x:=9;
+if (x > 50) {x:=20} else {x:=59}}}} else {x:=43;
+if (x > 50) {x:=1;
+if (x > 50) {x:=36;
+if (x > 50) {x:=7} else {x:=73}} else {x:=3;
+if (x > 50) {x:=23} else {x:=70}}} else {x:=9;
+if (x > 50) {x:=72;
+if (x > 50) {x:=18} else {x:=11}} else {x:=2;
+if (x > 50) {x:=53} else {x:=49}}}}} else {x:=55;
+if (x > 50) {x:=30;
+if (x > 50) {x:=66;
+if (x > 50) {x:=99;
+if (x > 50) {x:=95} else {x:=87}} else {x:=32;
+if (x > 50) {x:=76} else {x:=97}}} else {x:=99;
+if (x > 50) {x:=35;
+if (x > 50) {x:=3} else {x:=22}} else {x:=63;
+if (x > 50) {x:=50} else {x:=85}}}} else {x:=73;
+if (x > 50) {x:=76;
+if (x > 50) {x:=35;
+if (x > 50) {x:=40} else {x:=10}} else {x:=94;
+if (x > 50) {x:=100} else {x:=84}}} else {x:=14;
+if (x > 50) {x:=49;
+if (x > 50) {x:=35} else {x:=43}} else {x:=3;
+if (x > 50) {x:=69} else {x:=87}}}}}

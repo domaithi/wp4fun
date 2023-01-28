@@ -1,0 +1,78 @@
+pre: <= 242, 
+post: y,
+init: y [0..264] -> 0 ,
+
+y:=240;
+x:=1;
+while (x<240 && y>240) [y] {
+    y:=y-x
+};
+while (x<230 && y>230) [y] {
+    y:=y-x
+};
+while (x<220 && y>220) [y] {
+    y:=y-x
+};
+while (x<210 && y>210) [y] {
+    y:=y-x
+};
+while (x<200 && y>200) [y] {
+    y:=y-x
+};
+while (x<190 && y>190) [y] {
+    y:=y-x
+};
+while (x<180 && y>180) [y] {
+    y:=y-x
+};
+while (x<170 && y>170) [y] {
+    y:=y-x
+};
+while (x<160 && y>160) [y] {
+    y:=y-x
+};
+while (x<150 && y>150) [y] {
+    y:=y-x
+};
+while (x<140 && y>140) [y] {
+    y:=y-x
+};
+while (x<130 && y>130) [y] {
+    y:=y-x
+};
+while (x<120 && y>120) [y] {
+    y:=y-x
+};
+while (x<110 && y>110) [y] {
+    y:=y-x
+};
+while (x<100 && y>100) [y] {
+    y:=y-x
+};
+while (x<90 && y>90) [y] {
+    y:=y-x
+};
+while (x<80 && y>80) [y] {
+    y:=y-x
+};
+while (x<70 && y>70) [y] {
+    y:=y-x
+};
+while (x<60 && y>60) [y] {
+    y:=y-x
+};
+while (x<50 && y>50) [y] {
+    y:=y-x
+};
+while (x<40 && y>40) [y] {
+    y:=y-x
+};
+while (x<30 && y>30) [y] {
+    y:=y-x
+};
+while (x<20 && y>20) [y] {
+    y:=y-x
+};
+while (x<10 && y>10) [y] {
+    y:=y-x
+}

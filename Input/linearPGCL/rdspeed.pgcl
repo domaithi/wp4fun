@@ -1,0 +1,15 @@
+pre: <= 2*(m.-y) + 2/3*(n.-x),
+post: tick,
+init: ,
+
+tick:=0;
+while (x+3<=n) [2*(m.-y) + 2/3*(n.-x) + tick] {
+    if (y<m) {
+        uni:=unif(0..1);
+        y:=y+uni
+    } else {
+        uni:=unif(0..3);
+        x:=x+uni
+    };
+    tick:=tick+1
+}

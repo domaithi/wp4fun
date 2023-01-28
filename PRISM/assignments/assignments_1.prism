@@ -1,0 +1,22 @@
+mdp
+
+module TestMDP
+
+pc : [0..4] init 0;
+x : [0..100] init 0;
+n : [0..1] init 0;
+
+[] (pc=0) -> (pc'=3) & (x'=0);
+[] (pc=3) -> (pc'=2) & (n'=1);
+[] (pc=2) -> (pc'=1) & (x'=(x+99));
+[] (pc=1) -> (pc'=4);
+[] (pc=4) -> (pc'=4);
+
+endmodule
+
+rewards "post"
+
+pc=1 : (x/n);
+
+endrewards
+

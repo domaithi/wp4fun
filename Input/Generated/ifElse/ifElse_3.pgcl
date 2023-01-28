@@ -1,0 +1,9 @@
+pre: <= 50, post: x, init: x [0..100] -> 0,
+x:=90;
+if (x > 50) {x:=5;
+if (x > 50) {x:=64;
+if (x > 50) {x:=26} else {x:=64}} else {x:=25;
+if (x > 50) {x:=80} else {x:=98}}} else {x:=3;
+if (x > 50) {x:=42;
+if (x > 50) {x:=88} else {x:=100}} else {x:=88;
+if (x > 50) {x:=17} else {x:=31}}}

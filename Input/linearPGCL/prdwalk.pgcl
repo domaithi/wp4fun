@@ -1,0 +1,15 @@
+pre: <= 8/7*((n+4).-x),
+post: tick,
+init: ,
+
+tick := 0;
+while (x < n) [8/7*((n+4).-x) + tick] {
+    {
+        uni:= unif(0..2);
+        x:= x + uni
+    } [1/2] {
+        uni:= unif(0..5);
+        x:= x + uni
+    };
+    tick := tick + 2
+}

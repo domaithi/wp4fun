@@ -1,0 +1,21 @@
+pre: <= 48, 
+post: y,
+init: y [0..55] -> 0 ,
+
+y:=50;
+x:=1;
+while (x<50 && y>50) [y] {
+    y:=y-x
+};
+while (x<40 && y>40) [y] {
+    y:=y-x
+};
+while (x<30 && y>30) [y] {
+    y:=y-x
+};
+while (x<20 && y>20) [y] {
+    y:=y-x
+};
+while (x<10 && y>10) [y] {
+    y:=y-x
+}

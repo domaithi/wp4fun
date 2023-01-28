@@ -1,0 +1,5 @@
+pre: <=7,
+post: y,
+init: ,
+
+{y:=4}[1/x]{skip}

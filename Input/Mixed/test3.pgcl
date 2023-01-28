@@ -1,0 +1,10 @@
+// comment
+pre: <= i,
+post: i,
+
+while (i>100) [i] {
+    x:=0
+};
+while (i>0) [i] {
+    i:=i-1
+}

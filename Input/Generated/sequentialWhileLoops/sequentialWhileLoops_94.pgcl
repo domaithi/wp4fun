@@ -1,0 +1,288 @@
+pre: <= 931, 
+post: y,
+init: y [0..1034] -> 0 ,
+
+y:=940;
+x:=1;
+while (x<940 && y>940) [y] {
+    y:=y-x
+};
+while (x<930 && y>930) [y] {
+    y:=y-x
+};
+while (x<920 && y>920) [y] {
+    y:=y-x
+};
+while (x<910 && y>910) [y] {
+    y:=y-x
+};
+while (x<900 && y>900) [y] {
+    y:=y-x
+};
+while (x<890 && y>890) [y] {
+    y:=y-x
+};
+while (x<880 && y>880) [y] {
+    y:=y-x
+};
+while (x<870 && y>870) [y] {
+    y:=y-x
+};
+while (x<860 && y>860) [y] {
+    y:=y-x
+};
+while (x<850 && y>850) [y] {
+    y:=y-x
+};
+while (x<840 && y>840) [y] {
+    y:=y-x
+};
+while (x<830 && y>830) [y] {
+    y:=y-x
+};
+while (x<820 && y>820) [y] {
+    y:=y-x
+};
+while (x<810 && y>810) [y] {
+    y:=y-x
+};
+while (x<800 && y>800) [y] {
+    y:=y-x
+};
+while (x<790 && y>790) [y] {
+    y:=y-x
+};
+while (x<780 && y>780) [y] {
+    y:=y-x
+};
+while (x<770 && y>770) [y] {
+    y:=y-x
+};
+while (x<760 && y>760) [y] {
+    y:=y-x
+};
+while (x<750 && y>750) [y] {
+    y:=y-x
+};
+while (x<740 && y>740) [y] {
+    y:=y-x
+};
+while (x<730 && y>730) [y] {
+    y:=y-x
+};
+while (x<720 && y>720) [y] {
+    y:=y-x
+};
+while (x<710 && y>710) [y] {
+    y:=y-x
+};
+while (x<700 && y>700) [y] {
+    y:=y-x
+};
+while (x<690 && y>690) [y] {
+    y:=y-x
+};
+while (x<680 && y>680) [y] {
+    y:=y-x
+};
+while (x<670 && y>670) [y] {
+    y:=y-x
+};
+while (x<660 && y>660) [y] {
+    y:=y-x
+};
+while (x<650 && y>650) [y] {
+    y:=y-x
+};
+while (x<640 && y>640) [y] {
+    y:=y-x
+};
+while (x<630 && y>630) [y] {
+    y:=y-x
+};
+while (x<620 && y>620) [y] {
+    y:=y-x
+};
+while (x<610 && y>610) [y] {
+    y:=y-x
+};
+while (x<600 && y>600) [y] {
+    y:=y-x
+};
+while (x<590 && y>590) [y] {
+    y:=y-x
+};
+while (x<580 && y>580) [y] {
+    y:=y-x
+};
+while (x<570 && y>570) [y] {
+    y:=y-x
+};
+while (x<560 && y>560) [y] {
+    y:=y-x
+};
+while (x<550 && y>550) [y] {
+    y:=y-x
+};
+while (x<540 && y>540) [y] {
+    y:=y-x
+};
+while (x<530 && y>530) [y] {
+    y:=y-x
+};
+while (x<520 && y>520) [y] {
+    y:=y-x
+};
+while (x<510 && y>510) [y] {
+    y:=y-x
+};
+while (x<500 && y>500) [y] {
+    y:=y-x
+};
+while (x<490 && y>490) [y] {
+    y:=y-x
+};
+while (x<480 && y>480) [y] {
+    y:=y-x
+};
+while (x<470 && y>470) [y] {
+    y:=y-x
+};
+while (x<460 && y>460) [y] {
+    y:=y-x
+};
+while (x<450 && y>450) [y] {
+    y:=y-x
+};
+while (x<440 && y>440) [y] {
+    y:=y-x
+};
+while (x<430 && y>430) [y] {
+    y:=y-x
+};
+while (x<420 && y>420) [y] {
+    y:=y-x
+};
+while (x<410 && y>410) [y] {
+    y:=y-x
+};
+while (x<400 && y>400) [y] {
+    y:=y-x
+};
+while (x<390 && y>390) [y] {
+    y:=y-x
+};
+while (x<380 && y>380) [y] {
+    y:=y-x
+};
+while (x<370 && y>370) [y] {
+    y:=y-x
+};
+while (x<360 && y>360) [y] {
+    y:=y-x
+};
+while (x<350 && y>350) [y] {
+    y:=y-x
+};
+while (x<340 && y>340) [y] {
+    y:=y-x
+};
+while (x<330 && y>330) [y] {
+    y:=y-x
+};
+while (x<320 && y>320) [y] {
+    y:=y-x
+};
+while (x<310 && y>310) [y] {
+    y:=y-x
+};
+while (x<300 && y>300) [y] {
+    y:=y-x
+};
+while (x<290 && y>290) [y] {
+    y:=y-x
+};
+while (x<280 && y>280) [y] {
+    y:=y-x
+};
+while (x<270 && y>270) [y] {
+    y:=y-x
+};
+while (x<260 && y>260) [y] {
+    y:=y-x
+};
+while (x<250 && y>250) [y] {
+    y:=y-x
+};
+while (x<240 && y>240) [y] {
+    y:=y-x
+};
+while (x<230 && y>230) [y] {
+    y:=y-x
+};
+while (x<220 && y>220) [y] {
+    y:=y-x
+};
+while (x<210 && y>210) [y] {
+    y:=y-x
+};
+while (x<200 && y>200) [y] {
+    y:=y-x
+};
+while (x<190 && y>190) [y] {
+    y:=y-x
+};
+while (x<180 && y>180) [y] {
+    y:=y-x
+};
+while (x<170 && y>170) [y] {
+    y:=y-x
+};
+while (x<160 && y>160) [y] {
+    y:=y-x
+};
+while (x<150 && y>150) [y] {
+    y:=y-x
+};
+while (x<140 && y>140) [y] {
+    y:=y-x
+};
+while (x<130 && y>130) [y] {
+    y:=y-x
+};
+while (x<120 && y>120) [y] {
+    y:=y-x
+};
+while (x<110 && y>110) [y] {
+    y:=y-x
+};
+while (x<100 && y>100) [y] {
+    y:=y-x
+};
+while (x<90 && y>90) [y] {
+    y:=y-x
+};
+while (x<80 && y>80) [y] {
+    y:=y-x
+};
+while (x<70 && y>70) [y] {
+    y:=y-x
+};
+while (x<60 && y>60) [y] {
+    y:=y-x
+};
+while (x<50 && y>50) [y] {
+    y:=y-x
+};
+while (x<40 && y>40) [y] {
+    y:=y-x
+};
+while (x<30 && y>30) [y] {
+    y:=y-x
+};
+while (x<20 && y>20) [y] {
+    y:=y-x
+};
+while (x<10 && y>10) [y] {
+    y:=y-x
+}

@@ -1,0 +1,40 @@
+cvc5Flag=false
+z3Flag=false
+nonnegFlag=true
+probFlag=true
+realVarsFlag=false
+
+for arg in "$@"
+do
+index=$(echo $arg | cut -f1 -d=)
+val=$(echo $arg | cut -f2 -d=)
+case $index in
+        -cvc5|-CVC5)
+        cvc5Flag=true
+        ;;
+        -z3|-Z3)
+        z3Flag=true
+        ;;
+        --n)
+        nonnegFlag=false
+        ;;
+        --p)
+        probFlag=false
+        ;;
+        --i)
+        realVarsFlag=false
+        ;;
+        --r)
+        realVarsFlag=true
+        ;;
+*)
+esac
+done
+
+if [[ ($z3Flag == false && $cvc5Flag == false) ]]; then
+    echo "No smt solvers chosen"
+    echo "e.g.: $0 $1 -z3 -cvc5"
+    #echo "alternative: python3 main.py $1"
+else 
+    python3.10 main.py $1 $nonnegFlag $probFlag $z3Flag $cvc5Flag $realVarsFlag
+fi

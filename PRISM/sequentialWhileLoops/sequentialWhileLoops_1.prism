@@ -1,0 +1,23 @@
+mdp
+
+module TestMDP
+
+pc : [0..5] init 0;
+y : [0..11] init 0;
+x : [0..1] init 0;
+
+[] (pc=0) -> (pc'=3) & (y'=10);
+[] (pc=3) -> (pc'=2) & (x'=1);
+[] (pc=2) & (((x<10)&(y>10))) -> (pc'=4);
+[] (pc=4) -> (pc'=2) & (y'=(y-x));
+[] (pc=2) & (!(((x<10)&(y>10)))) -> (pc'=1);
+[] (pc=1) -> (pc'=5);
+[] (pc=5) -> (pc'=5);
+
+endmodule
+
+rewards "post"
+
+pc=1 : y;
+
+endrewards

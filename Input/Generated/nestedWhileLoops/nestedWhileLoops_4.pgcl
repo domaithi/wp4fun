@@ -1,0 +1,17 @@
+pre: <= 20, 
+post: y, 
+init: y[0..8] -> 0 ,
+
+y:=8;
+while (y>1) [y+[y>1]] { 
+     while (y>2) [y+[y>2]] { 
+     while (y>3) [y+[y>3]] { 
+     while (y>4) [y+[y>4]] { 
+     y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ }

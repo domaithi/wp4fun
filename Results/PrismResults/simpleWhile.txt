@@ -1,0 +1,7 @@
+Program,prismRes,modelCheckingTime,modelConstructionTime,terminalRealTime,terminalUserTime,terminalSysTime
+simpleWhile_1.pgcl,true,0.034,0.059,2.359,0.93,0.237
+simpleWhile_2.pgcl,true,0.094,0.097,2.216,0.985,0.14
+simpleWhile_3.pgcl,true,0.651,0.408,3.568,1.442,0.163
+simpleWhile_4.pgcl,true,15.989,0.677,18.206,11.885,0.312
+simpleWhile_5.pgcl,true,1108.155,3.123,1113.214,997.579,4.88
+simpleWhile_6.pgcl,,0.0,0.0,42.443,53.064,0.888

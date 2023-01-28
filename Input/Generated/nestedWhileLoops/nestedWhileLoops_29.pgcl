@@ -1,0 +1,92 @@
+pre: <= 10, 
+post: y, 
+init: y[0..58] -> 0 ,
+
+y:=58;
+while (y>1) [y+[y>1]] { 
+     while (y>2) [y+[y>2]] { 
+     while (y>3) [y+[y>3]] { 
+     while (y>4) [y+[y>4]] { 
+     while (y>5) [y+[y>5]] { 
+     while (y>6) [y+[y>6]] { 
+     while (y>7) [y+[y>7]] { 
+     while (y>8) [y+[y>8]] { 
+     while (y>9) [y+[y>9]] { 
+     while (y>10) [y+[y>10]] { 
+     while (y>11) [y+[y>11]] { 
+     while (y>12) [y+[y>12]] { 
+     while (y>13) [y+[y>13]] { 
+     while (y>14) [y+[y>14]] { 
+     while (y>15) [y+[y>15]] { 
+     while (y>16) [y+[y>16]] { 
+     while (y>17) [y+[y>17]] { 
+     while (y>18) [y+[y>18]] { 
+     while (y>19) [y+[y>19]] { 
+     while (y>20) [y+[y>20]] { 
+     while (y>21) [y+[y>21]] { 
+     while (y>22) [y+[y>22]] { 
+     while (y>23) [y+[y>23]] { 
+     while (y>24) [y+[y>24]] { 
+     while (y>25) [y+[y>25]] { 
+     while (y>26) [y+[y>26]] { 
+     while (y>27) [y+[y>27]] { 
+     while (y>28) [y+[y>28]] { 
+     while (y>29) [y+[y>29]] { 
+     y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ };
+y:=y-1
+ }

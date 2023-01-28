@@ -1,0 +1,17 @@
+pre: <= 50, post: x, init: x [0..100] -> 0,
+x:=16;
+if (x > 50) {x:=54;
+if (x > 50) {x:=74;
+if (x > 50) {x:=48;
+if (x > 50) {x:=10} else {x:=100}} else {x:=85;
+if (x > 50) {x:=50} else {x:=21}}} else {x:=9;
+if (x > 50) {x:=85;
+if (x > 50) {x:=49} else {x:=39}} else {x:=46;
+if (x > 50) {x:=73} else {x:=64}}}} else {x:=91;
+if (x > 50) {x:=91;
+if (x > 50) {x:=74;
+if (x > 50) {x:=68} else {x:=71}} else {x:=79;
+if (x > 50) {x:=69} else {x:=73}}} else {x:=5;
+if (x > 50) {x:=27;
+if (x > 50) {x:=58} else {x:=52}} else {x:=60;
+if (x > 50) {x:=33} else {x:=20}}}}
