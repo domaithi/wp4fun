@@ -1,12 +1,12 @@
-# Contraint-based Probabilistic Model Checking 4 Fun
-This a bash based command-line tool for contraint-based probabilistic model checking, as part of a masters thesis.
-The tool uses two different sat-solver: Z3 and CVC5.
+# Weakest Preexpectation 4 Fun
+This a bash based command-line tool for symbolic verification using the weakest preexpectation calculus, as part of the master's thesis of Mai-Thi Vu Do, Helena Restorff and Zenia Kjær Termøhlen.
+The tool uses two different SMT solvers: Z3 and CVC5.
 
 This tool supports macOS.
 
 # MacOS
 ## Prerequisites
-- Python3 installed (preferely version 3.10)
+- Python3 installed (preferably version 3.10)
 
 ### Z3
 The Z3 is already added to the repository, but the binding does not support macs with the M1 or M2 chip.
